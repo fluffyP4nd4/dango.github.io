@@ -1,0 +1,65 @@
+body{
+	background: white;
+}
+#logo{
+	padding:10px;
+	margin-bottom: 10px;
+	display: inline-flex;
+}
+#home{
+	background: lightblue;
+	height: 90vh;
+	width: 90vw;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+#project{
+	background: lightgreen;
+	height: 90vh;
+	width: 90vw;
+	padding: 0px;
+	margin: 0 auto;
+}
+#members{
+	background: lightgrey;
+	height: 90vh;
+	width: 90vw;
+	padding: 0px;
+	margin: 0 auto;
+}
+#img_logo{
+	margin-left: 25%;
+	max-width: 100px
+
+}
+.links{
+	border:0px;
+	margin: 0px;
+	font-size: 26px;
+	background-color:white;
+	cursor: pointer;
+	border-top-left-radius: 10px
+
+}
+
+.home:hover {
+	background: lightblue;
+}
+.members:hover{
+	background: lightblue;
+}
+.projects:hover{
+	background: lightblue;
+}
+footer{
+	width:100%;
+	padding: 10px;
+	text-align: center;
+	background: #233240;
+
+}
+.social{
+	width:40px;
+	height: 40px;
+}
