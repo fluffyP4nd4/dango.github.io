@@ -4,6 +4,7 @@ body{
 #logo{
 	padding:10px;
 	margin-bottom: 10px;
+	width: 50vw;
 	display: inline-flex;
 }
 #home{
@@ -32,6 +33,17 @@ body{
 	margin-left: 25%;
 	max-width: 100px
 
+}
+
+.logo .contact-us {
+	padding: 1rem 0;
+	background: red;
+	font-size: 1.1rem;
+	max-width: 100px;
+}
+
+.logo .contact-us i:hover {
+	color: #a1c4cf;
 }
 .links{
 	border:0px;
